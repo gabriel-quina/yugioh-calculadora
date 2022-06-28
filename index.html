@@ -1,0 +1,105 @@
+<html>
+<head>
+	<title>Yu-Gi-Oh Battle Rank Calculator</title>
+	<link rel="stylesheet" href="./css/cssnormalize-min.css">
+	<link rel="stylesheet" href="./css/estilo.css">
+</head>
+<body>
+	<div id="apparea">
+		<h1>Yu-Gi-Oh Forbbiden Memories</h1>
+		<h1>Battle Rank Calculator</h1>
+		<h2 id="result">99 <span>S<span>Rank</span></span><p class="red">POW</p></h2>
+		<div id="controls">
+			<div id="turns" class="sections relative">
+				<h4>TURNS</h4>
+				<button class="minusBtn">-</button>
+				<input id="turnValue"  type="text" value="0" disabled>
+				<button class="plusBtn">+</button>
+				<p>+12</p>				
+			</div>	
+			<div id="atk" class="sections relative">
+				<h4>ATTACKS</h4>
+				<button class="minusBtn">-</button>
+				<input id="atkValue" type="text" value="0" disabled>
+				<button class="plusBtn">+</button>
+				<p>+4</p>
+			</div>
+			<div id="def" class="sections relative">
+				<h4>DEFENSIVE</h4>
+				<button class="minusBtn">-</button>
+				<input id="defValue" type="text" value="0" disabled>
+				<button class="plusBtn">+</button>
+				<p>0</p>
+			</div>
+			<div id="facedown" class="sections relative">
+				<h4>FACE-DOWN</h4>
+				<button class="minusBtn">-</button>
+				<input id="facedownValue" type="text" value="0" disabled>
+				<button class="plusBtn">+</button>
+				<p>0</p>
+			</div>
+			<div id="fusion" class="sections relative">
+				<h4>FUSIONS</h4>
+				<button class="minusBtn">-</button>
+				<input id="fusionValue" type="text" value="0" disabled>
+				<button class="plusBtn">+</button>
+				<p>+4</p>
+			</div>	
+			<div id="equip" class="sections relative">
+				<h4>EQUIPS</h4>
+				<button class="minusBtn">-</button>
+				<input id="equipValue" type="text" value="0" disabled>
+				<button class="plusBtn">+</button>
+				<p>+4</p>
+			</div>
+			<div id="pure" class="sections relative">
+				<h4>MAGICS</h4>
+				<button class="minusBtn">-</button>
+				<input id="pureValue" type="text" value="0" disabled>
+				<button class="plusBtn">+</button>
+				<p>+2</p>
+			</div>
+			<div id="trap" class="sections relative">
+				<h4>TRAPS</h4>
+				<button class="minusBtn">-</button>
+				<input id="trapValue" type="text" value="0" disabled>
+				<button class="plusBtn">+</button>
+				<p>+2</p>
+			</div>
+			<div id="cards" class="sections relative">
+				<h4>CARDS USED</h4>
+				<button class="minusBtn">-</button>
+				<input id="cardsValue" type="text" value="0" disabled>
+				<button class="plusBtn">+</button>
+				<p>+15</p>
+			</div>
+			<div id="lp" class="sections relative">
+				<h4>LIFE POINTS</h4>
+				<button class="minusBtn"><</button>
+				<select name="lpSelection" disabled>
+						<option>8000</option>
+						<option>7999 - 7000</option>
+						<option>6999 - 1000</option>
+						<option>999 - 100</option>
+						<option>99 - 1</option>
+				</select>
+				<button class="plusBtn">></button>
+				<p>+6</p>
+			</div>			
+		</div>
+		<div id="victory-condition" class="resultSection" >
+			<h4>WIN CONDITION</h4>
+			<button id="totalBtn">TOTAL WIN</button>
+			<p>+2</p>
+			<button id="outBtn">DECK OUT</button>
+			<p>-40</p>
+			<button id="exBtn">EX WIN</button>
+			<p>+40</p>
+		</div>
+	</div>
+	<footer>
+		<button id="resetBtn">RESET</button>
+	</footer>
+    <script src="./scripts/calc.js"></script>
+</body>
+</html>
