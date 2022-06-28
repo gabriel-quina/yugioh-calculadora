@@ -1,1 +1,126 @@
+body{
+	padding: 5 40 40 40;
+}
+h1, h2{
+	margin: 10;
+	text-align: center;
+}
+h4 {
+	position: relative;
+	width: 100%;
+	margin: 0 0 0 0;
+	color: white;
+	font-size: 24px;
+	font-weight: 100;
+	text-align: center;
+	text-shadow: 0 0 2px #ffffff, 3px 3px 2px #0030c2, -3px -3px 2px #0030c2;
+}
+p {
+	margin: 0 0 0 0;
+	width: 100%;
+	height: 10px;
+	font-size: 0px;
+	color: #dd9999;
+	text-align: center;
+}
+.sections {
+	padding: 0 10 0 10;
+	display: inline-block;
+	width: 200;
+	box-sizing: border-box;
+	text-align: center;
+}
+button {	 
+    position: relative;
+    bottom: 2;	
+    width: 25px;
+	height: 25px;
+	padding: 0 0 0 0;
+	border: none; 
+	background-color: #494959;
+	text-align: center;
+    text-shadow: 1px 1px 8px #fcfc00, -1px -1px 8px #fcfc00;
+	font-size: large;
+	color: #fcfcc9;
+	display: inline;
+}
+.resultSection {
+	text-align: center;
+	background-color: #292929;
+	padding: 10px 0 10px 0;
+}
+.resultSection button {	 
+    position: relative;
+	margin: 5 auto 5 auto;
+    width: 140px;
+	height: 35px;
+}
+footer button {	 
+    position: relative;
+	margin: 5 auto 5 auto;
+    width: 140px;
+	height: 35px;
+	color: black;
+}
+button:disabled {
+	opacity: 0.3;
+}
+input{
+	width: 65px;
+}
+select{
+	width: 130px;
+}
+input, select:disabled  {
+	appearance: none;
+	text-align: center;
+	background-color: transparent;
+	border: none;
+	color: white;
+	font-size: 22px;
+	text-shadow: 0 0 2px #000000, 1px 1px 3px #000000, -1px -1px 3px #000000;
+	opacity: 1;
+}
+#apparea{
+	background-color: #dddddd;
+}
+#controls {
+	font-size: 0;
+	background-color: #292929;
+	text-align: center;
+	padding: 10px 0 10px 0;
+}
+#result span {
+	margin: 5 5 5 5;
+	padding: 5 0 5 5;
+	font-size: 30px;
+	color: #eb5be6;
+	background-color: #3d3821;
+	text-shadow: 0 0 2px #000000, 1px 1px 3px #000000, -1px -1px 3px #000000;
+}
+#result span span {
+	position: relative;
+	top: 5px;
+	right: 12px;
+	margin: 0 -10 0 0; 
+	padding: 0 0 0 0;
+	font-size: 14px;
+	color: #ffffff;
+	background-color: transparent;
+}
 
+#result p {
+	position: relative;
+	display: inline-block;
+	width: 80px;
+	height: 40px;
+	font-size: 22px;
+	color: #ffffff;
+	text-shadow: 0 0 2px #000000, 1px 1px 3px #000000, -1px -1px 3px #000000;
+}
+.blue {
+	background-color: blue;
+}
+.red {
+	background-color: red;
+}
